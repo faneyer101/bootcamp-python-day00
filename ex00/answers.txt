@@ -1,0 +1,5 @@
+pip list
+pip list | cut -d ' ' -f1
+pip show --verbos numpy
+pip search "tesseract"
+pip freeze > requirements.txt
